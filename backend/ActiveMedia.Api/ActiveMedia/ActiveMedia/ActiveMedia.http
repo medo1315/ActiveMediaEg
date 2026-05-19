@@ -1,0 +1,6 @@
+@ActiveMedia_HostAddress = http://localhost:5147
+
+GET {{ActiveMedia_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

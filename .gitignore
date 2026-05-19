@@ -21,3 +21,15 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Visual Studio / .NET Core
+.vs/
+.vs.zip
+[Bb]in/
+[Oo]bj/
+[Pp]ublish/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
