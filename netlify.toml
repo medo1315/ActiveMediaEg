@@ -4,6 +4,6 @@
 
 [build.environment]
   NPM_FLAGS = "--include=dev"
-  VITE_API_URL = "http://activemedia.runasp.net/api"
+  VITE_API_URL = "https://activemedia.runasp.net/api"
 
 
