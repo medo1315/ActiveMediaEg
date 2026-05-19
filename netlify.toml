@@ -4,6 +4,10 @@
 
 [build.environment]
   NPM_FLAGS = "--include=dev"
-  VITE_API_URL = "https://activemedia.runasp.net/api"
+  VITE_API_URL = "/api"
 
-
+[[redirects]]
+  from = "/api/*"
+  to = "http://activemedia.runasp.net/api/:splat"
+  status = 200
+  force = true
