@@ -1,6 +1,6 @@
 // Proxy wrapper for Supabase client connecting to .NET & SQL Server REST API
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const API_URL = import.meta.env.VITE_API_URL || '/api';
 
 const getAuthHeaders = (): Record<string, string> => {
   const token = localStorage.getItem('sb_token');
